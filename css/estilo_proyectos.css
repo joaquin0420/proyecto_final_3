@@ -1,102 +1,102 @@
-*{
-	
-	margin:0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.menu2{
-    top: 1px;
-    position: relative;
+.menu2 {
+  top: 1px;
+  position: relative;
 }
 
-.imagenLogo{
-  
-    height:100px;
-  width:100px;
+.imagenLogo {
+  height: 100px;
+  width: 100px;
 }
 
-.logo{
-    margin-left: 20px;
-    margin-top: 25%;
-    background-image: url(logo.png);
-    height: 150px;
-    width: 150px;
-    display: grid;
+.logo {
+  margin-left: 20px;
+  margin-top: 25%;
+  background-image: url(logo.png);
+  height: 150px;
+  width: 150px;
+  display: -ms-grid;
+  display: grid;
 }
-
 
 .menu {
-    width: 100%;
-    padding: 0px;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(252, 209, 216, 0.5);
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fcd1d8 0.5;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
 }
 
- a{
-     
-    text-decoration: none;
-    color:rgb(48, 45, 47);
-    font-size: 20px;
-    padding: 10px;
+a {
+  text-decoration: none;
+  color: #302d2f;
+  font-size: 20px;
+  padding: 10px;
 }
-nav a:hover{
-    border-radius: 50px;
-  background:rgb(221, 183, 189);
+
+nav a:hover {
+  border-radius: 50px;
+  background: #ddb7bd;
   color: antiquewhite;
-
 }
 
 .EstiloH1 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 3.2rem;
-    
-    color:rgb(48, 45, 47);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 3.2rem;
+  color: #302d2f;
 }
 
-.final{
-    bottom: 1px;
-    position: sticky;
+.final {
+  bottom: 1px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
-
-footer{
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color:rgb(48, 45, 47);
-    /*background-color: rgb(252, 209, 216, 0.5);*/
-    background-image: linear-gradient(to right, pink, white);
-    background-repeat: no-repeat;
-    background-size: 40%;
+footer {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #302d2f;
+  /*background-color: rgb(252, 209, 216, 0.5);*/
+  background-image: -webkit-gradient(linear, left top, right top, from(pink), to(white));
+  background-image: linear-gradient(to right, pink, white);
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
 /*.redes{    
     background-image: url(redes.png);}*/
-
-
-
-body{
-    background-color:#FAF4F5;
-    color:rgb(48, 45, 47);
+body {
+  background-color: #FAF4F5;
+  color: #302d2f;
 }
 
-h2{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 2.8rem;
-    
-    color:rgb(48, 45, 47);
-
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 2.8rem;
+  color: #302d2f;
 }
+
 /*
 .contenedor-imagenes{
 	display: flex;
@@ -116,36 +116,45 @@ h2{
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
 
 }*/
-
-.hola{
-    margin-top: 45px;
+.hola {
+  margin-top: 45px;
 }
+
 .contenedor-imagenes {
-	display: flex;
-	width: 80%;
-	margin: auto;
-	justify-content: space-around;
-	flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contenedor-imagenes .imagen {
-	flex-basis: 33.33%;
-	
-
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
 }
 
-.imagen img{
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+.imagen img {
+  width: 70%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-#zoom:hover{
-    transform: scale(1.5);
+#zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 #zoom {
-    transition: transform .9s; 
+  -webkit-transition: -webkit-transform .9s;
+  transition: -webkit-transform .9s;
+  transition: transform .9s;
+  transition: transform .9s, -webkit-transform .9s;
 }
+/*# sourceMappingURL=estilo_proyectos.css.map */
 
 
