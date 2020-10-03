@@ -1,0 +1,151 @@
+*{
+	
+	margin:0;
+	padding: 0;
+}
+
+.menu2{
+    top: 1px;
+    position: relative;
+}
+
+.imagenLogo{
+  
+    height:100px;
+  width:100px;
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 25%;
+    background-image: url(logo.png);
+    height: 150px;
+    width: 150px;
+    display: grid;
+}
+
+
+.menu {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(252, 209, 216) 0.5;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+ a{
+     
+    text-decoration: none;
+    color:rgb(48, 45, 47);
+    font-size: 20px;
+    padding: 10px;
+}
+nav a:hover{
+    border-radius: 50px;
+  background:rgb(221, 183, 189);
+  color: antiquewhite;
+
+}
+
+.EstiloH1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3.2rem;
+    
+    color:rgb(48, 45, 47);
+}
+
+.final{
+    bottom: 1px;
+    position: sticky;
+}
+
+
+footer{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:rgb(48, 45, 47);
+    /*background-color: rgb(252, 209, 216, 0.5);*/
+    background-image: linear-gradient(to right, pink, white);
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+/*.redes{    
+    background-image: url(redes.png);}*/
+
+
+
+body{
+    background-color:#FAF4F5;
+    color:rgb(48, 45, 47);
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 2.8rem;
+    
+    color:rgb(48, 45, 47);
+
+}
+/*
+.contenedor-imagenes{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 1px;
+
+}
+
+.contenedor-imagenes .imagen {
+	width: 32%;
+	position: relative;
+	height: 300px;
+    margin-bottom: 5px;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+
+}*/
+
+.hola{
+    margin-top: 45px;
+}
+.contenedor-imagenes {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contenedor-imagenes .imagen {
+	flex-basis: 33.33%;
+	
+
+}
+
+.imagen img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+#zoom:hover{
+    transform: scale(1.5);
+}
+
+#zoom {
+    transition: transform .9s; 
+}
+
+
