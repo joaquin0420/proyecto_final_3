@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu2{
+    top: 1px;
+    position: relative;
+}
+
+.imagenLogo{
+  
+    height:100px;
+  width:100px;
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 25%;
+    background-image: url(logo.png);
+    height: 150px;
+    width: 150px;
+    display: grid;
+    
+}
+
+
+.menu {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(252, 209, 216) 0.5;
+           font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+ a{
+     
+    text-decoration: none;
+    color:rgb(48, 45, 47);
+    font-size: 20px;
+    padding: 10px;
+}
+nav a:hover{
+    border-radius: 50px;
+  background:rgb(221, 183, 189);
+  color: antiquewhite;
+}
+
+.EstiloH1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3.2rem;
+    color:rgb(48, 45, 47);
+}
+
+
+
+#h1_nosotros{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 3.2rem;
+        
+        color:rgb(221, 183, 189);
+        animation: duration 9s;
+      animation-name:animar;
+      margin-top: 110px;
+}
+
+@keyframes animar{
+    0% {
+      opacity:0;
+       }
+    100%{
+      opacity:1;
+    }
+}
+
+
+
+body{
+    background-color:#FAF4F5;
+    color:rgb(48, 45, 47);
+}
+
+#contenido{
+    height: 960px;
+    width: 1650px;
+    padding: 3px;
+    /*border: solid black;*/
+}
+
+.fondo{
+    float: left;
+    margin-left: 10px;
+    height: 1000px;
+    width: 825px;
+    background-repeat: no-repeat;
+    /*border: solid red;*/
+    animation: duration 10s;
+      animation-name:animar;
+      margin-top: 30px;
+      
+}
+    
+
+
+
+.parrafo1{
+    
+    float: left;
+    width: 700px;
+    color:rgb(48, 45, 47);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 1.5px;
+    /*background-color: rgb(121, 105, 226, 0.75);*/
+    /*border: solid black;*/
+  margin-top: 210px;
+    margin-left: 50px;
+    
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 5px 10px rgb(221, 183, 189) 0.4;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/*redes{    
+    background-image: url(redes.png);
+}*/
+
+#nosotros{
+
+    border: solid 1px black;
+    width: 45%;
+    height:50%;
+    
+    float: left;
+}
+
+#nosotros p{
+    color:rgb(48, 45, 47);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    
+}
+
+#slider{
+    border: solid 1px red;
+    width: 45%;
+    height: 500px;
+    background-image: url(../img/cocina_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+.final{
+    bottom: 1px;
+    position: sticky;
+}
+
+
+footer{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:rgb(48, 45, 47);
+    /*background-color: rgb(252, 209, 216, 0.5);*/
+    background-image: linear-gradient(to right, pink, white);
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
